@@ -1,0 +1,112 @@
+body{
+	 background-color: #FA8BFF;
+background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+
+
+}
+
+#copied{
+	display: none;
+	position: absolute;
+	left: 77%;
+	top: 60%;
+
+}
+
+#info{
+	display: none;
+	margin-left: 20px;
+	margin-top: 5px;
+	color: red;
+}
+
+.container{
+	border: 1px solid;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+	margin-left: 500px;
+	margin-top: 200px;
+	background-color: white;
+	border-radius:20px ;
+	background-color: #D9F2FB;
+	position: relative;
+}
+
+.container .box>h2{
+	margin-left: 30px;
+	
+}
+
+.container .box>input[type="text"]{
+	padding: 10px;
+	width: 200px;
+}
+
+#btn{
+	padding: 10px;
+	background-color: blue;
+	color: white;
+	border-radius: 10px;
+}
+
+.bi-arrow-down{
+	margin-left: 100px;
+}
+
+.container .box>input[type="reset"]{
+	cursor: pointer;
+	margin-left: 70px;
+	background-color: #EF2D2D;
+	color: white;
+	font-size: 15px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.container .box>input[type="reset"]:hover{
+	background-color: red;
+	font-weight: bold;
+}
+#btn:hover{
+	background-color: #1C36A0;
+	font-weight: bold;
+}
+#copybtn:hover{
+	background-color: #6FFF9B;
+	border: 0.5px solid;
+}
+.container button{
+	cursor: pointer;
+	padding: 5px;
+	margin-left: 5px;
+}
+
+.container{
+	box-shadow: 5px 5px  20px black;
+}
+
+.container>.box{
+	margin-left: 50px;
+	padding: 15px;
+}
+
+@media screen and (max-width:768px){
+	.container{
+		margin-left: 150px;
+		width: 50%;
+	}
+	.container .box>input[type="text"]{
+		width: auto;
+	}
+}
+
+@media screen and (max-width:480px){
+	.container{
+		margin-left: 0px;
+		width:78%;
+	}
+}
+
